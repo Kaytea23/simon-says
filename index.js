@@ -51,7 +51,7 @@ function checkAnswer(index) {
   if (simonPattern[index] === userClickedPattern[index]) {
     return true;
   } else {
-    alert("game over");
+    alert("game over. Your score " + level +". Try again");
     window.reloadPage();
   }
 }
